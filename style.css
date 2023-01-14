@@ -1,0 +1,386 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Work+Sans:wght@600&display=swap');
+
+* {
+    font-family: 'Work Sans', sans-serif;
+}
+/* <!-- sanadbhowmik --> */
+/* Header and nav start*/
+
+.topheader {
+    background-color: #FF900E1A;
+
+}
+
+.nav-title {
+    font-weight: 700;
+    font-size: 45px;
+    font-family: 'Work Sans';
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 120px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 65px;
+}
+
+.brand {
+    text-align: center;
+}
+
+.brand h1 {
+    font-weight: 700;
+    font-size: 64px;
+    font-family: 'Work Sans';
+}
+
+.brand p {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    padding-bottom: 10px;
+}
+
+.brand button {
+    background: #FF900E;
+    border-radius: 8px;
+    border: none;
+    width: 180px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+    margin-top: 33px;
+}
+
+.brandsection img {
+    height: 500px;
+    width: 1120px;
+    padding-left: 20%;
+    padding-bottom: 45px;
+}
+
+/* Header and nav end*/
+
+/* Quick Features start */
+.features {
+    padding-top: 85px;
+    display: flex;
+}
+
+.features img {}
+
+.teamimg {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 24px;
+    column-gap: 24px;
+    padding-left: 211px;
+}
+
+.team {
+    width: 342px;
+    height: 342px;
+    border-radius: 8px;
+    /* animation */
+    transition: transform 5s;
+}
+
+.teaminfo {
+    padding-left: 73px;
+    padding-top: 287px;
+}
+
+#span1 {
+    color: #727272;
+    font-weight: 500;
+    font-size: 45px;
+}
+
+#span2 {
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+#span3 {
+    color: #FF900E;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.teaminfo p {
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+
+}
+
+.teaminfo button {
+    background: #FF900E;
+    border-radius: 8px;
+    border: none;
+    width: 180px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+/* Quick Features end */
+
+/* <!-- Love and enjoy start -- */
+.love {
+    display: flex;
+    margin-top: 130px;
+    padding-left: 190px;
+}
+
+.loveh1 {
+    border-left: 5px solid #FF900E;
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.loveenjoy p {
+    font-weight: 400;
+    font-size: 16px;
+
+    color: #727272;
+
+}
+
+.architect img {
+    padding-left: 146px;
+    width: 708px;
+    height: 982px;
+}
+
+.desktop {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin-top: 20px;
+    width: 586px;
+    height: 171px;
+}
+
+.desktop h1 {
+    color: #131313;
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 30px;
+    padding-top: 20px;
+}
+
+.desktop p {
+    color: #727272;
+    margin-left: 30px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.tenyear {
+    width: 342px;
+    height: 200px;
+    border: none;
+    background: #FF900E;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 25px;
+    color: #FFFFFF;
+          /* animation */
+    /* animation */
+    transition: transform 5s;
+
+}
+
+.tenyearbtn {
+    position: absolute;
+    bottom: -261%;
+    right: 36%;
+
+}
+
+.tenyear span {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 65px;
+}
+
+/* <!-- Love and enjoy end -- */
+
+/* <!-- somefact section start --> */
+.factsection {
+    padding-top: 130px;
+}
+
+.somefacts {
+    padding-left: 200px;
+}
+
+.somefacts h1 {
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.somefacts p {
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.award {
+    display: flex;
+    justify-content: center;
+    gap: 125px;
+    padding-left: 10%;
+}
+
+.award-box {
+    padding: 50px 30px;
+    border-radius: 8px;
+    font-size: 30px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, .6);
+    border: 1px solid #FF900E;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 14%;
+    /* rotate */
+    transition:transform 5s;
+}
+
+.award-box img {
+    margin-left: 40%;
+    /* animation */
+    transition:transform 5s;
+}
+
+.award-box h1 {
+    color: #424242;
+    font-weight: 600;
+    font-size: 45px;
+    text-align: center;
+    /* animation */
+    transition:transform 5s;
+}
+
+.award-box h3 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
+    text-align: center;
+    /* animation */
+    transition:transform 5s;
+}
+
+/* <!-- somefact section End --> */
+
+/* <!-- Our Sponspors start --> */
+.sponspors {
+    padding-top: 180px;
+}
+
+.sponsporinfo {
+    padding-left: 8%;
+    text-align: center;
+}
+
+.sponsporinfo h1 {
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.sponsporinfo p {
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.sponsporimg {
+    padding-top: 50px;
+    padding-left: 15%;
+    filter: grayscale(1);
+}
+
+.brandico {
+    margin-right: 150px;
+    transition:transform 5s;
+}
+
+/* <!-- Our Sponspors end --> */
+/* <!-- footer start --> */
+.footer {
+    padding-top: 130px;
+    padding-left: 240px;
+    padding-bottom: 215px;
+}
+
+.footerbox {
+    width: 1440px;
+    height: 100px;
+    background: #FFF4E7;
+    border-radius: 8px;
+    /* animation */
+    transition: width 5s, height 5s;
+}
+
+.footerbox h3 {
+    text-align: center;
+    color: #424242;
+    font-weight: 400;
+    font-size: 20px;
+    padding-top: 38px;
+}
+
+/* <!-- footer end --> */
+
+/* Animatin part start */
+
+.team:hover{
+    transform: rotate(180deg);
+}
+.tenyear:hover{
+    transform: rotate(180deg);
+    background-color: cadetblue;
+}
+.award-box:hover{
+    width: 14%;
+    height: 14%;
+    transform: rotate(180deg);
+    background-color: #FF900E;
+}
+.award-box:hover h1{
+    transform: rotate(-180deg);
+}
+.award-box:hover h3{
+    transform: rotate(-180deg);
+}
+.award-box:hover img{
+    transform: rotate(-180deg);
+}
+
+.brandico:hover{
+    transform: rotate(362deg);
+}
+.footerbox:hover{
+    width: 200px;
+    height: 200px;
+    background-color: #FF900E;
+}
+/* animation works on team photo,10+ btn,some fact box,sponcer img,footer */
+/* Animatin part End */
