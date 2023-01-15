@@ -286,6 +286,43 @@ nav li {
 
 /* <!-- somefact section End --> */
 
+/* new one */
+
+blockquote {
+  max-width: 400px;
+  padding: 1.3em;
+  
+  background-color: #f5f5f5;
+  color: #212121;
+  border: solid 3px #212121;
+  border-radius: 1em;
+  box-shadow: #212121 5px 5px 0;
+  background-image: url('data:image/svg+xml,%3Csvg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"%3E%3Cg fill="%239C92AC" fill-opacity="0.4" fill-rule="evenodd"%3E%3Cpath d="M0 40L40 0H20L0 20M40 40V20L20 40"/%3E%3C/g%3E%3C/svg%3E');
+
+}
+.blockquote{
+    padding-left: 40%;
+    padding-top: 10%;
+}
+.quote-text {
+  font-style: italic;
+}
+
+.credit {
+  float: right;
+  margin-top: -2px;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.quote-icon {
+  width: 50px;
+  margin-bottom: 0.5em;
+}
+
+
+
+/* new one */
 /* <!-- Our Sponspors start --> */
 .sponspors {
     padding-top: 180px;
