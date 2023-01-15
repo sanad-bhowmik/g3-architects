@@ -390,4 +390,57 @@ nav li {
 /* Animatin part End */
 
 /* media query */
-@media screen and (max-width: 576px) {}
+@media screen and (max-width: 576px) {
+    /* nav responsive */
+    .nav{
+        align-items: center;
+        flex-direction: column;
+    }
+    .navbar{
+        flex-direction: column;
+    }
+    .brand{
+        margin: 0 5%;
+    }
+    .brand btn{
+        margin: 5% 30%;
+    }
+    .bannerimg{
+        display: flex;
+        justify-content: center;
+    }
+    .bannerimg>img{
+        margin-bottom: 5%;
+        width: 95%;
+    }
+    .container{
+        width: 100%;
+        align-items: center;
+    }
+    /* middle */
+    .features{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .teamimg{
+        grid-template-columns: repeat(1, 1fr);
+        margin-right: 0px;
+        gap: 24px 0px;
+    }
+    .teaminfo{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        margin-bottom: 10%;
+    }
+    .factsection{
+        margin-top: 15%;
+    }
+    .award{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .award-box{
+        margin: 5%;
+    }
+}
