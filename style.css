@@ -3,6 +3,7 @@
 * {
     font-family: 'Work Sans', sans-serif;
 }
+
 /* <!-- sanadbhowmik --> */
 /* Header and nav start*/
 
@@ -153,6 +154,7 @@ nav li {
     color: #131313;
     font-weight: 700;
     font-size: 45px;
+
 }
 
 .loveenjoy p {
@@ -193,24 +195,19 @@ nav li {
 
 .tenyear {
     width: 342px;
+    position: relative;
     height: 200px;
     border: none;
     background: #FF900E;
     border-radius: 8px;
     font-weight: 500;
     font-size: 25px;
+    bottom: 11%;
+    right: -11%;
     color: #FFFFFF;
-          /* animation */
+    /* animation */
     /* animation */
     transition: transform 5s;
-
-}
-
-.tenyearbtn {
-    position: absolute;
-    bottom: -261%;
-    right: 36%;
-
 }
 
 .tenyear span {
@@ -260,13 +257,13 @@ nav li {
     margin-bottom: 50px;
     width: 14%;
     /* rotate */
-    transition:transform 5s;
+    transition: transform 5s;
 }
 
 .award-box img {
     margin-left: 40%;
     /* animation */
-    transition:transform 5s;
+    transition: transform 5s;
 }
 
 .award-box h1 {
@@ -275,7 +272,7 @@ nav li {
     font-size: 45px;
     text-align: center;
     /* animation */
-    transition:transform 5s;
+    transition: transform 5s;
 }
 
 .award-box h3 {
@@ -284,7 +281,7 @@ nav li {
     color: #727272;
     text-align: center;
     /* animation */
-    transition:transform 5s;
+    transition: transform 5s;
 }
 
 /* <!-- somefact section End --> */
@@ -319,7 +316,7 @@ nav li {
 
 .brandico {
     margin-right: 150px;
-    transition:transform 5s;
+    transition: transform 5s;
 }
 
 /* <!-- Our Sponspors end --> */
@@ -351,36 +348,46 @@ nav li {
 
 /* Animatin part start */
 
-.team:hover{
+.team:hover {
     transform: rotate(180deg);
 }
-.tenyear:hover{
+
+.tenyear:hover {
     transform: rotate(180deg);
     background-color: cadetblue;
 }
-.award-box:hover{
+
+.award-box:hover {
     width: 14%;
     height: 14%;
     transform: rotate(180deg);
     background-color: #FF900E;
 }
-.award-box:hover h1{
-    transform: rotate(-180deg);
-}
-.award-box:hover h3{
-    transform: rotate(-180deg);
-}
-.award-box:hover img{
+
+.award-box:hover h1 {
     transform: rotate(-180deg);
 }
 
-.brandico:hover{
+.award-box:hover h3 {
+    transform: rotate(-180deg);
+}
+
+.award-box:hover img {
+    transform: rotate(-180deg);
+}
+
+.brandico:hover {
     transform: rotate(362deg);
 }
-.footerbox:hover{
+
+.footerbox:hover {
     width: 200px;
     height: 200px;
     background-color: #FF900E;
 }
+
 /* animation works on team photo,10+ btn,some fact box,sponcer img,footer */
 /* Animatin part End */
+
+/* media query */
+@media screen and (max-width: 576px) {}
